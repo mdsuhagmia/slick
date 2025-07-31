@@ -70,31 +70,58 @@ const Gallery = () => {
       <Container>
           <Slider {...settings}>
             <div>
-              <img src={gal1} alt="" className='h-[300px] w-full px-2 rounded-[20px]' />
+              <a href="#">
+                <img src={gal1} alt="" 
+                className='h-[300px] w-full px-2 rounded-[20px]' />
+              </a>
             </div>
             <div>
-              <img src={gal2} alt="" className='h-[300px] w-full px-2 rounded-[20px]' />
+              <a href="#">
+                <img src={gal2} alt="" 
+                className='h-[300px] w-full px-2 rounded-[20px]' />
+              </a>
             </div>
             <div>
-              <img src={gal3} alt="" className='h-[300px] w-full px-2 rounded-[20px]' />
+              <a href="#">
+                <img src={gal3} alt="" 
+                className='h-[300px] w-full px-2 rounded-[20px]' />
+              </a>
             </div>
             <div>
-              <img src={gal4} alt="" className='h-[300px] w-full px-2 rounded-[20px]' />
+              <a href="#">
+                <img src={gal4} alt="" 
+                className='h-[300px] w-full px-2 rounded-[20px]' />
+              </a>
             </div>
             <div>
-              <img src={gal5} alt="" className='h-[300px] w-full px-2 rounded-[20px]' />
+              <a href="#">
+                <img src={gal5} alt="" 
+                className='h-[300px] w-full px-2 rounded-[20px]' />
+              </a>
             </div>
             <div>
-              <img src={gal6} alt="" className='h-[300px] w-full px-2 rounded-[20px]' />
+              <a href="#">
+                <img src={gal6} alt="" 
+                className='h-[300px] w-full px-2 rounded-[20px]' />
+              </a>
             </div>
             <div>
-              <img src={gal7} alt="" className='h-[300px] w-full px-2 rounded-[20px]' />
+              <a href="#">
+                <img src={gal7} alt="" 
+                className='h-[300px] w-full px-2 rounded-[20px]' />
+              </a>
             </div>
             <div>
-              <img src={gal8} alt="" className='h-[300px] w-full px-2 rounded-[20px]' />
+              <a href="#">
+                <img src={gal8} alt="" 
+                className='h-[300px] w-full px-2 rounded-[20px]' />
+              </a>
             </div>
             <div>
-              <img src={gal9} alt="" className='h-[300px] w-full px-2 rounded-[20px]' />
+              <a href="#">
+                <img src={gal9} alt="" 
+                className='h-[300px] w-full px-2 rounded-[20px]' />
+              </a>
             </div>
           </Slider>
       </Container>

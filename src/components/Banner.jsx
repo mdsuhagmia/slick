@@ -40,17 +40,29 @@ const Banner = () => {
   return (
     <div>
       <Slider {...settings}>
-      <div>
-          <img src={ban1} alt="" className='h-[250px] md:h-[300px] lg:h-[400px] xl:lg:h-[600px] 2xl:h-[800px] w-full' />
+        <div>
+          <a href="#">
+            <img src={ban1} alt="" 
+            className='h-[250px] md:h-[300px] lg:h-[400px] xl:lg:h-[600px] 2xl:h-[800px] w-full' />
+          </a>
         </div>
         <div>
-          <img src={ban2} alt="" className='h-[250px] md:h-[300px] lg:h-[400px] xl:lg:h-[600px] 2xl:h-[800px] w-full' />
+          <a href="#">
+            <img src={ban2} alt="" 
+            className='h-[250px] md:h-[300px] lg:h-[400px] xl:lg:h-[600px] 2xl:h-[800px] w-full' />
+          </a>
         </div>
         <div>
-          <img src={ban3} alt="" className='h-[250px] md:h-[300px] lg:h-[400px] xl:lg:h-[600px] 2xl:h-[800px] w-full' />
+          <a href="#">
+            <img src={ban3} alt="" 
+            className='h-[250px] md:h-[300px] lg:h-[400px] xl:lg:h-[600px] 2xl:h-[800px] w-full' />
+          </a>
         </div>
         <div>
-          <img src={ban4} alt="" className='h-[250px] md:h-[300px] lg:h-[400px] xl:lg:h-[600px] 2xl:h-[800px] w-full' />
+          <a href="#">
+            <img src={ban4} alt="" 
+            className='h-[250px] md:h-[300px] lg:h-[400px] xl:lg:h-[600px] 2xl:h-[800px] w-full' />
+          </a>
         </div>
     </Slider>
     </div>
