@@ -69,58 +69,58 @@ const Gallery = () => {
     <section className='py-10 md:py-16'>
       <Container>
           <Slider {...settings}>
-            <div>
+            <div className='px-2'>
               <a href="#">
                 <img src={gal1} alt="" 
-                className='h-[300px] w-full mx-2 rounded-[20px]' />
+                className='h-[300px] w-full rounded-[20px]' />
               </a>
             </div>
-            <div>
+            <div className='px-2'>
               <a href="#">
                 <img src={gal2} alt="" 
-                className='h-[300px] w-full mx-2 rounded-[20px]' />
+                className='h-[300px] w-full rounded-[20px]' />
               </a>
             </div>
-            <div>
+            <div className='px-2'>
               <a href="#">
                 <img src={gal3} alt="" 
-                className='h-[300px] w-full mx-2 rounded-[20px]' />
+                className='h-[300px] w-full rounded-[20px]' />
               </a>
             </div>
-            <div>
+            <div className='px-2'>
               <a href="#">
                 <img src={gal4} alt="" 
-                className='h-[300px] w-full mx-2 rounded-[20px]' />
+                className='h-[300px] w-full rounded-[20px]' />
               </a>
             </div>
-            <div>
+            <div className='px-2'>
               <a href="#">
                 <img src={gal5} alt="" 
-                className='h-[300px] w-full mx-2 rounded-[20px]' />
+                className='h-[300px] w-full rounded-[20px]' />
               </a>
             </div>
-            <div>
+            <div className='px-2'>
               <a href="#">
                 <img src={gal6} alt="" 
-                className='h-[300px] w-full mx-2 rounded-[20px]' />
+                className='h-[300px] w-full rounded-[20px]' />
               </a>
             </div>
-            <div>
+            <div className='px-2'>
               <a href="#">
                 <img src={gal7} alt="" 
-                className='h-[300px] w-full mx-2 rounded-[20px]' />
+                className='h-[300px] w-full rounded-[20px]' />
               </a>
             </div>
-            <div>
+            <div className='px-2'>
               <a href="#">
                 <img src={gal8} alt="" 
-                className='h-[300px] w-full mx-2 rounded-[20px]' />
+                className='h-[300px] w-full rounded-[20px]' />
               </a>
             </div>
-            <div>
+            <div className='px-2'>
               <a href="#">
                 <img src={gal9} alt="" 
-                className='h-[300px] w-full mx-2 rounded-[20px]' />
+                className='h-[300px] w-full rounded-[20px]' />
               </a>
             </div>
           </Slider>
