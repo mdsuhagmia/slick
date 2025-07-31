@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+.slick-dots{
+  position: absolute;
+  left: 50%;
+  bottom: 30px;
+  transform: translateX(-50%);
+}
+.slick-dots li{
+  display: inline-block;
+  margin-right: 10px;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: rgb(17, 0, 255);
+}
+.slick-dots li button{
+  color: transparent;
+  border: none;
+  height: 10px;
+  width: 10px;
+  background-color: white;
+  border-radius: 50%;
+  opacity: 0;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+.slick-dots li.slick-active button{
+  opacity: 1;
+}
